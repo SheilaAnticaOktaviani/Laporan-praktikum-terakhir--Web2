@@ -1,74 +1,54 @@
-Sistem Informasi Manajemen Artikel Berbasis Web
-Tugas UAS Pemrograman Web — Laravel Framework
+#  Sistem Informasi Manajemen Artikel Berbasis Web (CMS)
 
- Identitas Mahasiswa
-Field	Detail
-Nama	SHEILA ANTICA OKTAVIANI
-NIM	312410002
-Mata Kuliah	Pemrograman Web
-📌 Deskripsi Project
-Aplikasi web berbasis Laravel untuk mengelola konten artikel secara dinamis. Sistem ini mencakup fitur autentikasi pengguna, manajemen artikel, serta panel admin untuk pengelolaan data secara menyeluruh.
+###  Dokumentasi Proyek Akhir Semester (UAS) — Pemrograman Web
+Proyek ini dikembangkan menggunakan **Laravel Framework** sebagai syarat pemenuhan serta evaluasi akhir pada mata kuliah Pemrograman Web.
 
-Fitur Utama
- Autentikasi (Login & Register)
- CRUD Artikel (Create, Read, Update, Delete)
- Kategori & Filter Artikel
- Manajemen User (Admin & Member)
- Tampilan Responsif
- Teknologi yang Digunakan
-Teknologi	Versi
-PHP	8.1+
-Laravel	10.x
-MySQL	8.0
-Bootstrap	5.3
-JavaScript	ES6
- Cara Instalasi
-# 1. Clone repository
-git clone https://github.com/nanda628h/UAS_Web_2.git
+---
 
-# 2. Masuk ke folder project
+## 👤 Identitas Pengembang
+| Komponen Data | Informasi Akademik |
+| :--- | :--- |
+| **Nama Lengkap** | SHEILA ANTICA OKTAVIANI|
+| **NIM** | 312410002 |
+| **Mata Kuliah** | Pemrograman Web |
+| **Institusi** | Universitas Pelita Bangsa |
+
+---
+
+##  Ikhtisar Proyek
+
+Aplikasi ini merupakan platform *Content Management System* (CMS) berbasis web yang dirancang khusus untuk mengelola sirkulasi publikasi artikel secara dinamis. Menggunakan arsitektur *Model-View-Controller* (MVC) bawaan Laravel, sistem ini memisahkan logika bisnis backend dengan komponen visual frontend secara efisien, serta menyediakan hak akses yang terproteksi bagi pengguna biasa maupun administrator.
+
+---
+
+##  Fungsionalitas Utama Sistem
+
+* **Autentikasi & Otorisasi Multilevel:** Akses masuk (*Login*) dan pendaftaran (*Register*) yang aman dengan pembagian peran pengguna secara spesifik (**Admin** & **Member**).
+* **Manajemen Konten Komprehensif (CRUD):** Fasilitas penuh bagi pengguna berwenang untuk memproduksi (*Create*), menampilkan (*Read*), memperbarui (*Update*), dan menghapus (*Delete*) data artikel.
+* **Taksonomi & Filtrasi Dinamis:** Pengelompokan artikel terstruktur berdasarkan kategori tertentu guna mempermudah pencarian informasi oleh pembaca.
+* **Panel Kontrol Administrator:** Dasbor khusus bagi Admin untuk melakukan moderasi data pengguna, manajemen kategori, serta pengawasan konten situs secara terpusat.
+* **Antarmuka Responsif (Mobile-Ready):** Tata letak halaman yang adaptif di berbagai ukuran perangkat (Mobile, Tablet, Desktop) berkat integrasi framework CSS modern.
+
+---
+
+##  Spesifikasi Teknologi (*Tech-Stack*)
+
+| Komponen | Spesifikasi Minimum / Versi | Peran dalam Sistem |
+| :--- | :--- | :--- |
+| **PHP** | v8.1+ | Bahasa pemrograman utama sisi server (*Server-side*) |
+| **Laravel Framework** | v10.x | *Engine framework* utama berarsitektur MVC |
+| **MySQL** | v8.0 | Sistem manajemen basis data relasional (RDBMS) |
+| **Bootstrap** | v5.3 | *Library* CSS untuk strukturisasi komponen UI responsif |
+| **JavaScript** | ECMAScript 6 (ES6) | Logika interaktivitas dinamis pada sisi klien (*Client-side*) |
+
+---
+
+##  Panduan Langkah Instalasi
+
+Ikuti instruksi di bawah ini untuk melakukan replikasi proyek ke dalam lingkungan pengembangan lokal (*local development environment*):
+
+### 1. Kloning Repositori
+Lakukan kloning berkas proyek dari repositori Git menggunakan perintah:
+```bash
+git clone [https://github.com/nanda628h/UAS_Web_2.git](https://github.com/nanda628h/UAS_Web_2.git)
 cd UAS_Web_2
-
-# 3. Install dependencies
-composer install
-npm install
-
-# 4. Copy file environment
-cp .env.example .env
-
-# 5. Generate app key
-php artisan key:generate
-
-# 6. Konfigurasi database di file .env
-DB_DATABASE=nama_database
-DB_USERNAME=root
-DB_PASSWORD=
-
-# 7. Migrasi database
-php artisan migrate --seed
-
-# 8. Jalankan aplikasi
-php artisan serve
- Struktur Folder
-UAS_Web_2/
-├── app/
-│   ├── Http/Controllers/
-│   │   ├── ArtikelController.php
-│   │   ├── AdminController.php
-│   │   └── AuthController.php
-│   └── Models/
-│       ├── ArtikelModel.php
-│       └── UserModel.php
-├── resources/views/
-│   ├── layouts/
-│   ├── artikel/
-│   └── admin/
-├── routes/
-│   └── web.php
-└── database/
-    └── migrations/
- Screenshot
-(Tambahkan screenshot aplikasi di sini)
-
- Lisensi
-Project ini dibuat untuk keperluan akademik — Universitas Pelita Bangsa, Semester Genap 2024/2025.

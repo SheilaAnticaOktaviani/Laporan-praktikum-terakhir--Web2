@@ -5,7 +5,7 @@ Proyek ini dikembangkan menggunakan **Laravel Framework** sebagai syarat pemenuh
 
 ---
 
-## 👤 Identitas Pengembang
+##  Identitas Pengembang
 | Komponen Data | Informasi Akademik |
 | :--- | :--- |
 | **Nama Lengkap** | SHEILA ANTICA OKTAVIANI|

@@ -15,6 +15,49 @@ Proyek ini dikembangkan menggunakan **Laravel Framework** sebagai syarat pemenuh
 
 ---
 
+```
+app/
+├── Cells/
+│   └── ArtikelTerkini.php       ← Praktikum 3 - View Cell
+├── Controllers/
+│   ├── Home.php
+│   ├── Page.php
+│   ├── Artikel.php              ← Praktikum 2,5,6,7
+│   └── User.php                 ← Praktikum 4
+├── Filters/
+│   └── Auth.php                 ← Praktikum 4
+├── Models/
+│   ├── ArtikelModel.php         ← Praktikum 2,6
+│   ├── KategoriModel.php        ← Praktikum 6
+│   └── UserModel.php            ← Praktikum 4
+├── Database/Seeds/
+│   └── UserSeeder.php           ← Praktikum 4
+├── Config/
+│   ├── Routes.php
+│   └── Filters.php
+└── Views/
+    ├── layout/main.php          ← Praktikum 3 - View Layout
+    ├── components/
+    │   └── artikel_terkini.php  ← Praktikum 3 - View Cell
+    ├── template/
+    │   ├── header.php
+    │   ├── footer.php
+    │   ├── admin_header.php
+    │   └── admin_footer.php
+    ├── artikel/
+    │   ├── index.php
+    │   ├── detail.php
+    │   ├── admin_index.php      ← Praktikum 5 pagination+search
+    │   ├── form_add.php         ← Praktikum 7 upload gambar
+    │   └── form_edit.php
+    └── user/
+        └── login.php            ← Praktikum 4
+public/
+├── style.css
+└── gambar/                      ← Folder upload gambar (Praktikum 7)
+```
+
+---
 ##  Ikhtisar Proyek
 
 Aplikasi ini merupakan platform *Content Management System* (CMS) berbasis web yang dirancang khusus untuk mengelola sirkulasi publikasi artikel secara dinamis. Menggunakan arsitektur *Model-View-Controller* (MVC) bawaan Laravel, sistem ini memisahkan logika bisnis backend dengan komponen visual frontend secara efisien, serta menyediakan hak akses yang terproteksi bagi pengguna biasa maupun administrator.

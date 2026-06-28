@@ -1,0 +1,141 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background: #f4f4f4;
+}
+
+/* Container */
+#container {
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+    background: #1a1a2e;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Nav */
+nav {
+    background: #16213e;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 8px 14px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+nav a:hover,
+nav a.active {
+    background: #0f3460;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Wrapper */
+#wrapper {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Main Content */
+#main {
+    flex: 1;
+    min-width: 0;
+}
+
+#main h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1a1a2e;
+}
+
+#main hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#main p {
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 240px;
+    flex-shrink: 0;
+}
+
+.widget-box {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.widget-box h3.title {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 13px;
+    margin: -14px -14px 12px -14px;
+    border-radius: 4px 4px 0 0;
+}
+
+.widget-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget-box ul li {
+    border-bottom: 1px solid #eee;
+    padding: 6px 0;
+}
+
+.widget-box ul li a {
+    color: #0f3460;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.widget-box ul li a:hover {
+    text-decoration: underline;
+}
+
+.widget-box p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: #1a1a2e;
+    color: #aaa;
+    text-align: center;
+    padding: 14px;
+    font-size: 12px;
+}

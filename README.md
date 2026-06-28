@@ -269,7 +269,7 @@ CREATE TABLE user (
 ```
 Parameter Akun = Kredensial Akses
 Email Pengguna = admin@email.com
-Kata Sandiadmin = 123
+Kata Sandi     = admin123
 ```
 ### Catatan Keamanan: Seluruh string kata sandi yang tersimpan di dalam database diproses dalam format hash terenkripsi dengan memanfaatkan algoritma satu arah melalui fungsi bawaan password_hash().
 

@@ -3,9 +3,9 @@
 > **Mata Kuliah:** Pemrograman Web 2  
 > **Dosen:** Agung Nugroho (agung@pelitabangsa.ac.id)  
 > **Universitas:** Universitas Pelita Bangsa, Bekasi  
-> **Nama:** *(isi nama Anda)*  
-> **NIM:** *(isi NIM Anda)*  
-> **Kelas:** *(isi kelas Anda)*
+> **Nama:** *Sheila Antica Oktaviani)*  
+> **NIM:** *(312410002)*  
+> **Kelas:** *(I241A)*
 
 ---
 
